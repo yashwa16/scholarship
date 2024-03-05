@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
 <div class="col-lg-6">
-
+  <img class="img-fluid" src="1.jpg" alt="New York">
 
 </div>
 <div class="col-lg-6">
