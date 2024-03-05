@@ -1,5 +1,5 @@
 
-<?php require "main/head.php" ?>
+<?php require "main/head.php"?>
 <?php require "main/nav.php"?>
 
 <div class="container">
@@ -10,7 +10,7 @@
 </div>
 <div class="col-lg-6">
 
-<form action="/action_page.php">
+<form action="/action_pages.php">
   <div class="mb-3 mt-3">
     <label for="email" class="form-label">Email:</label>
     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
