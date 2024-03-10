@@ -1,7 +1,9 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <img src="pics/1.png" class="mx-auto" alt="Cinque Terre"style="height:50px;">
+
+    <a class="navbar-brand ms-1" href="#">ERA Scholars</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,15 +13,15 @@
           <a class="nav-link" href="pages/login.php">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Register</a>
+          <a class="nav-link" href="pages/reg.php">Register</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
+          <a class="nav-link" href="pages/reg2.php">Link</a>
         </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
+        <button class="btn btn-light" type="button">Search</button>
       </form>
     </div>
   </div>
