@@ -1,5 +1,5 @@
 <div class="mt-5 p-4 bg-dark text-white text-center">
-  <p>Footer</p>
+  <p><p>&copy; 2024 Dream Scholarship Website. All rights reserved.</p></p>
 </div>
 
 </body>
