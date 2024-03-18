@@ -15,7 +15,7 @@
 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Contact</a>
+          <a class="nav-link" href="pages/home.php">Contact</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="pages/login.php">Login</a>
@@ -23,14 +23,22 @@
          <li class="nav-item">
           <a class="nav-link" href="pages/register.php">Register</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
-        </li>
       </ul>
+                  <div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle me-2" data-bs-toggle="dropdown">
+    Filter GPA
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="pages/dashboard/home.php?gpa=3">3</a></li>
+    <li><a class="dropdown-item" href="pages/dashboard/home.php?gpa=4">4</a></li>
+    <li><a class="dropdown-item" href="pages/dashboard/home.php?gpa=5">5</a></li>
+  </ul>
+</div>
      
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-light" type="button">Search</button>
+      <form class="d-flex" action="pages/dashboard/home.php" method="GET">
+        <button type="button" class="btn btn-light me-2"><a href="pages/action/logout.php" style="text-decoration:none;color:Black">logout</a></button>
+        <input class="form-control me-2" type="text"  name="search" placeholder="Search">
+        <button class="btn btn-light" type="submit" >Search</button>
       </form>
     </div>
   </div>

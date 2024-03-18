@@ -3,7 +3,7 @@
 
 <style>
     .form-container {
-        border: 2px solid red; 
+        border: 2px solid brown; 
         border-radius: 10px; 
         
     }
@@ -19,7 +19,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="form-container p-4 mt-2" style="background-color: #6A1B9A; ">
-                <form action="/submit_registration.php" method="POST">
+                <form action="pages/action/submit_registration.php" method="POST">
                     <div class="form-group text-white"> <h2 class="text-white  p-2 mb-4 text-center"style=" border-radius: 10px; background-color: #6A1B9A;" >Registration</h2>
                         <label for="fullName">Full Name:</label>
                         <input type="text" class="form-control " id="fullName" placeholder="Enter your full name"
@@ -30,6 +30,10 @@
                         <input type="email" class="form-control " id="email" placeholder="Enter email" name="email"
                             required>
                     </div>
+                     <div class="mb-3">
+    <label for="pwd" class="form-label text-white">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  </div>
                     <div class="form-group text-white">
                         <label for="phone">Phone Number:</label>
                         <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" name="phone"
@@ -65,11 +69,11 @@
             </div>
         </div>
         <div class="col-lg-6 " style=" border-radius:10px;">
-            <img src="pages/image/2.jpg" style= "border-radius:10px;"  class="img-fluid" alt="Registration Image">
+            <img src="pages/image/2.jpg" style= "border-radius:10px; border: 2px solid brown"  class="img-fluid" alt="Registration Image">
         </div>
     </div>
     <div class="col-lg-12 text-center mt-4">
-        <button type="button" class= "text-white btn  " style="background-color: #6A1B9A; border-radius:10px; " >Back to Home</button>
+        <button type="button" class= "text-white btn  " style="background-color: #6A1B9A; border-radius:10px; border: 2px solid brown " >Back to Home</button>
     </div>
 </div>
 
